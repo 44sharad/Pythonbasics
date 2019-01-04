@@ -115,11 +115,11 @@ Append
 
 **Arguments** :
 
-1.*arr =Values are appended to a copy of this array.*
+1. *arr =Values are appended to a copy of this array.*
 
-2.*values = These values are appended.*
+2. *values = These values are appended.*
 
-3.*axis = The axis along which values are appended.*
+3. *axis = The axis along which values are appended.*
 
 **Returns** : *A copy of arr with values appended to axis. Note that append does not occur in-place: a new array is allocated and filled. If axis is None, out is a flattened array.*
 
@@ -135,13 +135,13 @@ Insert
 
 **Arguments** :
 
-1.*arr =Input array.*
+1. *arr =Input array.*
  
-2.*obj = Object that defines the index*
+2. *obj = Object that defines the index*
 
-3.*values = Values to insert into arr.*
+3. *values = Values to insert into arr.*
 
-4.*axis = Axis along which to insertvalues.*
+4. *axis = Axis along which to insertvalues.*
 
 **Returns** :*A copy of arr with values inserted. Note that insert does not occur in-place: a new array is returned. If axis is None, out is a flattened array.*
 
@@ -156,11 +156,11 @@ Delete
 
 **Arguments** :
 
-1.*arr =Input array.* 
+1. *arr =Input array.* 
 
-2.*obj = Indicate which sub-arrays to remove.*
+2. *obj = Indicate which sub-arrays to remove.*
 
-3.*axis = along which axis to delete.*
+3. *axis = along which axis to delete.*
 
 **Returns** : *A copy of arr with the elements specified by obj removed. Note that delete does not occur in-place. If axis is None, out is a flattened array.*
 
@@ -198,7 +198,7 @@ Vstack
 
 **Arguments** : 
 
-1.*Tup: sequence of arrays*
+1. *Tup: sequence of arrays*
 
 **Dimenssion & Shape** : *The arrays must have the same shape along all but the first axis.1-D arrays must have the same length.*
 
@@ -215,7 +215,7 @@ Hstack
 
 **Arguments** :
 
-1.*Tup : sequence of arrays*
+1. *Tup : sequence of arrays*
 
 **Dimenssion & Shape** : *The arrays must have the same shapealong all but the second axis, except 1-D arrays which can be any length.*
 
